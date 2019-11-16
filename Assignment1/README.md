@@ -6,7 +6,7 @@ Define the following.
                 Convolutions are dot multiplications between two similar or diffrent sized matrices. when convolving on top of a image
                 each kernal extract diffrent kind of features.
                 
-**2-Filter/Kernal:- **
+**2-Filter/Kernal:-**
                 Filter or kernal is a matrix which is used to convolv on top of another matrix(image in our case) to extract unique set 
                 of features from the image. 
                 
