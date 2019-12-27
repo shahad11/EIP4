@@ -1,3 +1,60 @@
+New arch sight increase in overall Acc:- 
+```
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:1033: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:1020: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+Epoch 1/50
+Learning rate:  0.0001
+338/339 [============================>.] - ETA: 0s - loss: 13.9425 - gender_output_loss: 0.6913 - image_quality_output_loss: 1.0082 - age_output_loss: 1.5216 - weight_output_loss: 1.0766 - bag_output_loss: 0.9521 - footwear_output_loss: 1.0563 - pose_output_loss: 0.9838 - emotion_output_loss: 1.0246 - gender_output_acc: 0.5564 - image_quality_output_acc: 0.5513 - age_output_acc: 0.3385 - weight_output_acc: 0.6330 - bag_output_acc: 0.5568 - footwear_output_acc: 0.4272 - pose_output_acc: 0.5641 - emotion_output_acc: 0.6863
+
+339/339 [==============================] - 246s 725ms/step - loss: 13.9413 - gender_output_loss: 0.6913 - image_quality_output_loss: 1.0082 - age_output_loss: 1.5218 - weight_output_loss: 1.0762 - bag_output_loss: 0.9523 - footwear_output_loss: 1.0561 - pose_output_loss: 0.9838 - emotion_output_loss: 1.0235 - gender_output_acc: 0.5563 - image_quality_output_acc: 0.5513 - age_output_acc: 0.3381 - weight_output_acc: 0.6329 - bag_output_acc: 0.5563 - footwear_output_acc: 0.4277 - pose_output_acc: 0.5641 - emotion_output_acc: 0.6868 - val_loss: 13.5440 - val_gender_output_loss: 0.6827 - val_image_quality_output_loss: 1.0012 - val_age_output_loss: 1.4460 - val_weight_output_loss: 1.0044 - val_bag_output_loss: 0.9230 - val_footwear_output_loss: 1.0214 - val_pose_output_loss: 0.9200 - val_emotion_output_loss: 0.9175 - val_gender_output_acc: 0.5751 - val_image_quality_output_acc: 0.5312 - val_age_output_acc: 0.3888 - val_weight_output_acc: 0.6283 - val_bag_output_acc: 0.5692 - val_footwear_output_acc: 0.4769 - val_pose_output_acc: 0.6250 - val_emotion_output_acc: 0.7132
+
+Epoch 00001: val_loss improved from inf to 13.54404, saving model to /content/gdrive/My Drive/saved models/assign5_resnet50_i1.001.h5
+Epoch 2/50
+Learning rate:  0.0001
+339/339 [==============================] - 222s 656ms/step - loss: 13.4927 - gender_output_loss: 0.6884 - image_quality_output_loss: 0.9794 - age_output_loss: 1.4348 - weight_output_loss: 0.9790 - bag_output_loss: 0.9199 - footwear_output_loss: 1.0174 - pose_output_loss: 0.9316 - emotion_output_loss: 0.9149 - gender_output_acc: 0.5525 - image_quality_output_acc: 0.5588 - age_output_acc: 0.4004 - weight_output_acc: 0.6378 - bag_output_acc: 0.5618 - footwear_output_acc: 0.5029 - pose_output_acc: 0.6161 - emotion_output_acc: 0.7114 - val_loss: 13.4942 - val_gender_output_loss: 0.6819 - val_image_quality_output_loss: 1.0002 - val_age_output_loss: 1.4337 - val_weight_output_loss: 0.9996 - val_bag_output_loss: 0.9215 - val_footwear_output_loss: 1.0030 - val_pose_output_loss: 0.9180 - val_emotion_output_loss: 0.9093 - val_gender_output_acc: 0.5737 - val_image_quality_output_acc: 0.5312 - val_age_output_acc: 0.3888 - val_weight_output_acc: 0.6283 - val_bag_output_acc: 0.5692 - val_footwear_output_acc: 0.5350 - val_pose_output_acc: 0.6250 - val_emotion_output_acc: 0.7132
+
+Epoch 00002: val_loss improved from 13.54404 to 13.49420, saving model to /content/gdrive/My Drive/saved models/assign5_resnet50_i1.002.h5
+Epoch 3/50
+Learning rate:  0.0001
+339/339 [==============================] - 223s 658ms/step - loss: 13.4631 - gender_output_loss: 0.6867 - image_quality_output_loss: 0.9792 - age_output_loss: 1.4290 - weight_output_loss: 0.9764 - bag_output_loss: 0.9198 - footwear_output_loss: 1.0017 - pose_output_loss: 0.9319 - emotion_output_loss: 0.9118 - gender_output_acc: 0.5554 - image_quality_output_acc: 0.5587 - age_output_acc: 0.4009 - weight_output_acc: 0.6380 - bag_output_acc: 0.5623 - footwear_output_acc: 0.5363 - pose_output_acc: 0.6160 - emotion_output_acc: 0.7114 - val_loss: 13.4746 - val_gender_output_loss: 0.6811 - val_image_quality_output_loss: 0.9998 - val_age_output_loss: 1.4324 - val_weight_output_loss: 0.9991 - val_bag_output_loss: 0.9216 - val_footwear_output_loss: 0.9890 - val_pose_output_loss: 0.9176 - val_emotion_output_loss: 0.9077 - val_gender_output_acc: 0.5744 - val_image_quality_output_acc: 0.5312 - val_age_output_acc: 0.3891 - val_weight_output_acc: 0.6283 - val_bag_output_acc: 0.5692 - val_footwear_output_acc: 0.5480 - val_pose_output_acc: 0.6250 - val_emotion_output_acc: 0.7132
+
+Epoch 00003: val_loss improved from 13.49420 to 13.47455, saving model to /content/gdrive/My Drive/saved models/assign5_resnet50_i1.003.h5
+Epoch 4/50
+Learning rate:  0.0001
+339/339 [==============================] - 223s 657ms/step - loss: 13.4396 - gender_output_loss: 0.6848 - image_quality_output_loss: 0.9770 - age_output_loss: 1.4305 - weight_output_loss: 0.9744 - bag_output_loss: 0.9178 - footwear_output_loss: 0.9896 - pose_output_loss: 0.9309 - emotion_output_loss: 0.9088 - gender_output_acc: 0.5574 - image_quality_output_acc: 0.5585 - age_output_acc: 0.3999 - weight_output_acc: 0.6374 - bag_output_acc: 0.5621 - footwear_output_acc: 0.5422 - pose_output_acc: 0.6160 - emotion_output_acc: 0.7116 - val_loss: 13.4603 - val_gender_output_loss: 0.6811 - val_image_quality_output_loss: 0.9982 - val_age_output_loss: 1.4313 - val_weight_output_loss: 0.9988 - val_bag_output_loss: 0.9217 - val_footwear_output_loss: 0.9803 - val_pose_output_loss: 0.9173 - val_emotion_output_loss: 0.9062 - val_gender_output_acc: 0.5751 - val_image_quality_output_acc: 0.5312 - val_age_output_acc: 0.3891 - val_weight_output_acc: 0.6283 - val_bag_output_acc: 0.5692 - val_footwear_output_acc: 0.5458 - val_pose_output_acc: 0.6250 - val_emotion_output_acc: 0.7132
+
+Epoch 00004: val_loss improved from 13.47455 to 13.46031, saving model to /content/gdrive/My Drive/saved models/assign5_resnet50_i1.004.h5
+Epoch 5/50
+Learning rate:  0.0001
+339/339 [==============================] - 223s 657ms/step - loss: 13.4262 - gender_output_loss: 0.6838 - image_quality_output_loss: 0.9758 - age_output_loss: 1.4277 - weight_output_loss: 0.9746 - bag_output_loss: 0.9181 - footwear_output_loss: 0.9802 - pose_output_loss: 0.9316 - emotion_output_loss: 0.9093 - gender_output_acc: 0.5578 - image_quality_output_acc: 0.5591 - age_output_acc: 0.3997 - weight_output_acc: 0.6378 - bag_output_acc: 0.5617 - footwear_output_acc: 0.5489 - pose_output_acc: 0.6160 - emotion_output_acc: 0.7117 - val_loss: 13.4486 - val_gender_output_loss: 0.6805 - val_image_quality_output_loss: 0.9973 - val_age_output_loss: 1.4312 - val_weight_output_loss: 0.9983 - val_bag_output_loss: 0.9211 - val_footwear_output_loss: 0.9734 - val_pose_output_loss: 0.9165 - val_emotion_output_loss: 0.9055 - val_gender_output_acc: 0.5781 - val_image_quality_output_acc: 0.5312 - val_age_output_acc: 0.3891 - val_weight_output_acc: 0.6283 - val_bag_output_acc: 0.5692 - val_footwear_output_acc: 0.5484 - val_pose_output_acc: 0.6250 - val_emotion_output_acc: 0.7132
+
+Epoch 00005: val_loss improved from 13.46031 to 13.44855, saving model to /content/gdrive/My Drive/saved models/assign5_resnet50_i1.005.h5
+Epoch 6/50
+Learning rate:  0.0001
+339/339 [==============================] - 223s 657ms/step - loss: 13.4040 - gender_output_loss: 0.6827 - image_quality_output_loss: 0.9728 - age_output_loss: 1.4255 - weight_output_loss: 0.9737 - bag_output_loss: 0.9168 - footwear_output_loss: 0.9733 - pose_output_loss: 0.9284 - emotion_output_loss: 0.9065 - gender_output_acc: 0.5619 - image_quality_output_acc: 0.5584 - age_output_acc: 0.4008 - weight_output_acc: 0.6377 - bag_output_acc: 0.5616 - footwear_output_acc: 0.5525 - pose_output_acc: 0.6157 - emotion_output_acc: 0.7117 - val_loss: 13.4399 - val_gender_output_loss: 0.6796 - val_image_quality_output_loss: 0.9957 - val_age_output_loss: 1.4302 - val_weight_output_loss: 0.9987 - val_bag_output_loss: 0.9209 - val_footwear_output_loss: 0.9698 - val_pose_output_loss: 0.9165 - val_emotion_output_loss: 0.9046 - val_gender_output_acc: 0.5807 - val_image_quality_output_acc: 0.5320 - val_age_output_acc: 0.3895 - val_weight_output_acc: 0.6283 - val_bag_output_acc: 0.5692 - val_footwear_output_acc: 0.5525 - val_pose_output_acc: 0.6250 - val_emotion_output_acc: 0.7132
+
+Epoch 00006: val_loss improved from 13.44855 to 13.43993, saving model to /content/gdrive/My Drive/saved models/assign5_resnet50_i1.006.h5
+Epoch 7/50
+Learning rate:  0.0001
+339/339 [==============================] - 223s 658ms/step - loss: 13.3952 - gender_output_loss: 0.6821 - image_quality_output_loss: 0.9714 - age_output_loss: 1.4264 - weight_output_loss: 0.9727 - bag_output_loss: 0.9158 - footwear_output_loss: 0.9686 - pose_output_loss: 0.9275 - emotion_output_loss: 0.9071 - gender_output_acc: 0.5611 - image_quality_output_acc: 0.5593 - age_output_acc: 0.4000 - weight_output_acc: 0.6376 - bag_output_acc: 0.5621 - footwear_output_acc: 0.5516 - pose_output_acc: 0.6159 - emotion_output_acc: 0.7115 - val_loss: 13.4288 - val_gender_output_loss: 0.6790 - val_image_quality_output_loss: 0.9942 - val_age_output_loss: 1.4296 - val_weight_output_loss: 0.9977 - val_bag_output_loss: 0.9208 - val_footwear_output_loss: 0.9642 - val_pose_output_loss: 0.9158 - val_emotion_output_loss: 0.9045 - val_gender_output_acc: 0.5804 - val_image_quality_output_acc: 0.5320 - val_age_output_acc: 0.3895 - val_weight_output_acc: 0.6283 - val_bag_output_acc: 0.5692 - val_footwear_output_acc: 0.5491 - val_pose_output_acc: 0.6250 - val_emotion_output_acc: 0.7132
+
+Epoch 00007: val_loss improved from 13.43993 to 13.42885, saving model to /content/gdrive/My Drive/saved models/assign5_resnet50_i1.007.h5
+Epoch 8/50
+Learning rate:  0.0001
+339/339 [==============================] - 223s 658ms/step - loss: 13.3853 - gender_output_loss: 0.6815 - image_quality_output_loss: 0.9705 - age_output_loss: 1.4241 - weight_output_loss: 0.9735 - bag_output_loss: 0.9149 - footwear_output_loss: 0.9645 - pose_output_loss: 0.9276 - emotion_output_loss: 0.9058 - gender_output_acc: 0.5630 - image_quality_output_acc: 0.5588 - age_output_acc: 0.4027 - weight_output_acc: 0.6379 - bag_output_acc: 0.5621 - footwear_output_acc: 0.5538 - pose_output_acc: 0.6161 - emotion_output_acc: 0.7116 - val_loss: 13.4209 - val_gender_output_loss: 0.6785 - val_image_quality_output_loss: 0.9917 - val_age_output_loss: 1.4299 - val_weight_output_loss: 0.9975 - val_bag_output_loss: 0.9204 - val_footwear_output_loss: 0.9611 - val_pose_output_loss: 0.9155 - val_emotion_output_loss: 0.9039 - val_gender_output_acc: 0.5811 - val_image_quality_output_acc: 0.5312 - val_age_output_acc: 0.3906 - val_weight_output_acc: 0.6283 - val_bag_output_acc: 0.5692 - val_footwear_output_acc: 0.5491 - val_pose_output_acc: 0.6250 - val_emotion_output_acc: 0.7132
+
+Epoch 00008: val_loss improved from 13.42885 to 13.42088, saving model to /content/gdrive/My Drive/saved models/assign5_resnet50_i1.008.h5
+Epoch 9/50
+Learning rate:  0.0001
+221/339 [==================>...........] - ETA: 1:11 - loss: 13.3808 - gender_output_loss: 0.6799 - image_quality_output_loss: 0.9645 - age_output_loss: 1.4254 - weight_output_loss: 0.9687 - bag_output_loss: 0.9114 - footwear_output_loss: 0.9579 - pose_output_loss: 0.9356 - emotion_output_loss: 0.9155 - gender_output_acc: 0.5672 - image_quality_output_acc: 0.5618 - age_output_acc: 0.3982 - weight_output_acc: 0.6373 - bag_output_acc: 0.5632 - footwear_output_acc: 0.5585 - pose_output_acc: 0.6085 - emotion_output_acc: 0.7050
+```
+
+
 
 Slight increase in Accuracy with cyclic learner(10 epochs):-
 
